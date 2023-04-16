@@ -1,38 +1,46 @@
-
 ## 目录
 
 * * *
 
+
+- [目录](#目录)
 - [渗透测试](#渗透测试)
-    - [漏洞扫描](#漏洞扫描)
-    - [模糊测试](#模糊测试)
-    - [在线工具](#在线工具)
-    - [流量控制](#流量控制)
-    - [爆破攻击](#爆破攻击)
-    - [漏洞利用](#漏洞利用)
+  - [信息收集](#信息收集)
+  - [漏洞扫描](#漏洞扫描)
+  - [模糊测试](#模糊测试)
+  - [在线工具](#在线工具)
+  - [爆破攻击](#爆破攻击)
+  - [流量控制](#流量控制)
+  - [漏洞利用：](#漏洞利用)
 - [免杀](#免杀)
-    - [webshell免杀](#webshell免杀)
-    - [shellcode免杀](#shellcode免杀)
+  - [webshell免杀](#webshell免杀)
+  - [shellcode免杀](#shellcode免杀)
 - [后渗透](#后渗透)
-    - [权限管理](#权限管理)
-    - [权限提升](#权限提升)
-    - [内网穿透](#内网穿透)
-    - [内网横向](#内网横向)
-    - [密码提取](#密码提取)
+  - [权限管理](#权限管理)
+  - [权限提升](#权限提升)
+  - [内网穿透](#内网穿透)
+  - [内网横向](#内网横向)
+  - [密码提取](#密码提取)
 - [逆向工程](#逆向工程)
-    - [App小程序逆向](#app小程序逆向)
-    - [WINPE逆向](#winpe逆向)
+  - [安卓逆向](#安卓逆向)
+  - [WINPE逆向](#winpe逆向)
 - [代码审计](#代码审计)
 - [工具类](#工具类)
 - [插件类](#插件类)
 - [社工钓鱼](#社工钓鱼)
 - [框架项目](#框架项目)
 - [学习文档](#学习文档)
-- [各年hw漏洞](#各年护网暴出exp整理)
+- [各年护网exp整理](#各年护网exp整理)
 
 * * *
 
 ## 渗透测试
+
+* * *
+
+### 信息收集
+
+- 邮箱收集 ：https://hunter.io/
 
 * * *
 
@@ -41,6 +49,7 @@
 - fscan ：https://github.com/shadow1ng/fscan
 - kscan ：https://github.com/lcvvvv/kscan
 - afrog ：https://github.com/zan8in/afrog
+- mscan(域) ：https://github.com/ddostest123/mscan
 - 备份文件扫描 ：https://github.com/VMsec/ihoneyBakFileScan_Modify
 - 信息泄露扫描 ：https://github.com/lijiejie/BBScan
 - 扫描箱子 ：https://github.com/We5ter/Scanners-Box
@@ -84,7 +93,6 @@
     - 若依后台rce利用 ：https://github.com/lz2y/yaml-payload-for-ruoyi
     - 若依后台一键利用 ：https://github.com/thelostworldFree/Ruoyi-All
     - OA-EXPTOOL ：https://github.com/LittleBear4/OA-EXPTOOL
-    - my-exploit ：https://github.com/achuna33/MYExploit
     - Exp-t00ls ：https://github.com/cseroad/Exp-Tools
     - Fvuln(批量) ：https://github.com/d3ckx1/Fvuln
 - 信息泄漏利用
@@ -99,6 +107,7 @@
     - weblogic ：https://github.com/0xn0ne/weblogicScanner
     - JNDIExploit ：https://github.com/WhiteHSBG/JNDIExploit
     - ysoserial ：https://github.com/su18/ysoserial
+    - fastjson ：https://github.com/a1phaboy/FastjsonScan
 - 主机漏洞利用
     - ms17-010 ：https://github.com/weizn11/MS17010_AllInOne
     - python_ms17-010原生 ：https://github.com/worawit/MS17-010
@@ -153,7 +162,11 @@
 
 ### 权限提升
 
+- CDK ：https://github.com/cdk-team/CDK
 - postsql提权 ：https://github.com/No-Github/postgresql_udf_help
+- 土豆家族 ：https://github.com/antonioCoco/JuicyPotatoNG
+- linux提权 ：https://github.com/liamg/traitor
+- PEASS-ng ：https://github.com/carlospolop/PEASS-ng
 
 * * *
 
@@ -161,6 +174,7 @@
 
 - Stowaway ：https://github.com/ph4ntonn/Stowaway
 - 毒刺 ：https://github.com/FunnyWolf/pystinger
+- 密码爆破 ：https://github.com/Porchetta-Industries/CrackMapExec
 
 * * *
 
@@ -173,6 +187,7 @@
 
 ### 密码提取
 
+- HackBrowser ：https://github.com/moonD4rk/HackBrowserData
 - Xshell密码提取导出 ：https://github.com/JDArmy/SharpXDecrypt
 - ProcDump-linux ：https://github.com/Sysinternals/ProcDump-for-Linux
 
@@ -182,8 +197,9 @@
 
 * * *
 
-### App小程序逆向
+### 安卓逆向
 
+- 安卓逆向 ：https://github.com/dqzg12300/MikRom
 - AppInfoScanner ：https://github.com/kelvinBen/AppInfoScanner
 - 微信小程序逆向 https://github.com/ezshine/wxapkg-convertor
 - 国外的一个 ：https://github.com/MobSF/Mobile-Security-Framework-MobSF
@@ -196,7 +212,7 @@
 
 * * *
 
-### 代码审计
+## 代码审计
 
 - mysql数据库监控 ：https://github.com/fupinglee/MySQLMonitor
 - chatgpt自动审计 : https://github.com/Kento-Sec/chatGPT-CodeReview
@@ -204,7 +220,7 @@
 
 * * *
 
-### 工具类
+## 工具类
 
 - win10虚拟机工具齐全 ：https://github.com/makoto56/penetration-suite-toolkit
 - 环境自动部署工具 ：https://github.com/ffffffff0x/f8x
@@ -212,10 +228,11 @@
 - BerylEnigma(加解密) ：https://github.com/ffffffff0x/BerylEnigma
 - android渗透盒子 ：https://github.com/H4ckBu7eer-EX/h4tools
 - mac微信防撤回 ：https://github.com/sunnyyoung/WeChatTweak-macOS
+- electerm ：https://github.com/electerm/electerm
 
 * * *
 
-### 插件类
+## 插件类
 
 - burp插件
     - fastjson ：https://github.com/pmiaowu/BurpFastJsonScan
@@ -226,29 +243,35 @@
 
 * * *
 
-### 社工钓鱼
+## 社工钓鱼
 
 - 钓鱼演练 ：https://github.com/xiecat/goblin
+- 字典生成 ：https://github.com/G0mini/spark
 
 * * *
 
-### 框架项目
+## 框架项目
 
 - ExpDemo-JavaFx ：https://github.com/yhy0/ExpDemo-JavaFX
 - 武器库平台 ：https://github.com/Ascotbe/Medusa
 
 * * *
 
-### 学习文档：
+## 学习文档
 
 - 实战技巧
     - 渗透Tips ：https://github.com/Power7089/PenetrationTest-Tips
     - 渗透Tips2 ：https://github.com/ffffffff0x/Pentest101
     - 我是赏金猎人系列 ：https://github.com/J0o1ey/BountyHunterInChina
+    - hackone漏洞报告 ：https://github.com/reddelexc/hackerone-reports
+    - 安卓app渗透 ：https://github.com/WindXaa/Android-Vulnerability-Mining
+    - f8x渗透tips ：https://github.com/ffffffff0x/Pentest101
+    - 红队笔记 ：https://github.com/biggerduck/RedTeamNotes
 - Java
     - spring boot相关漏洞学习资料，利用方法 ：https://github.com/LandGrey/SpringBootVulExploit
     - Java漏洞及代码学习 ：https://github.com/JoyChou93/java-sec-code
     - Jsp免杀 ：https://github.com/threedr3am/JSP-WebShells
+    - fastjson ：https://mp.weixin.qq.com/s/F3zkjc_7iby4dsAQu2COdg
 - PHP
     - 代码审计练习 ：https://github.com/hongriSec/PHP-Audit-Labs
 - Sql注入
@@ -272,7 +295,7 @@
     - php免杀文章 ：https://github.com/AabyssZG/WebShell-Bypass-Guide
 * * *
 
-### 各年护网暴出exp整理
+## 各年护网exp整理
 
 - 2021 ：https://github.com/Ershu1/2021_Hvv
 - 2022 ：https://github.com/Phuong39/2022-HW-POC
