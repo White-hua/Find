@@ -2,7 +2,6 @@
 
 * * *
 
-
 - [目录](#目录)
 - [渗透测试](#渗透测试)
   - [信息收集](#信息收集)
@@ -11,10 +10,11 @@
   - [在线工具](#在线工具)
   - [爆破攻击](#爆破攻击)
   - [流量控制](#流量控制)
-  - [漏洞利用：](#漏洞利用)
+  - [漏洞利用](#漏洞利用)
 - [免杀](#免杀)
   - [webshell免杀](#webshell免杀)
   - [shellcode免杀](#shellcode免杀)
+  - [防溯源](#防溯源)
 - [后渗透](#后渗透)
   - [权限管理](#权限管理)
   - [权限提升](#权限提升)
@@ -53,6 +53,7 @@
 - 备份文件扫描 ：https://github.com/VMsec/ihoneyBakFileScan_Modify
 - 信息泄露扫描 ：https://github.com/lijiejie/BBScan
 - 扫描箱子 ：https://github.com/We5ter/Scanners-Box
+- wifi/蓝牙测试 ：https://github.com/D3Ext/WEF
 
 * * *
 
@@ -67,7 +68,9 @@
 
 ### 在线工具
 
-- 
+- 文件下载命令生成 ：https://forum.ywhack.com/bountytips.php?download
+- 子域名爆破 ：http://z.zcjun.com/
+- ip转数字 ：https://www.bejson.com/convert/ip2int/
 
 * * *
 
@@ -86,7 +89,7 @@
 
 * * *
 
-### 漏洞利用：
+### 漏洞利用
 
 - CMS/OA漏洞利用
     - Apt-t00ls : https://github.com/White-hua/Apt_t00ls
@@ -95,6 +98,8 @@
     - OA-EXPTOOL ：https://github.com/LittleBear4/OA-EXPTOOL
     - Exp-t00ls ：https://github.com/cseroad/Exp-Tools
     - Fvuln(批量) ：https://github.com/d3ckx1/Fvuln
+    - 用友 ：https://github.com/wgpsec/YongYouNcTool
+    - Tentacle ：https://github.com/orleven/Tentacle/
 - 信息泄漏利用
     - swagger-exp ：https://github.com/lijiejie/swagger-exp
 - 综合漏洞利用
@@ -105,8 +110,10 @@
     - shiro ：https://github.com/SummerSec/ShiroAttack2
     - solr ：https://github.com/Imanfeng/Apache-Solr-RCE
     - weblogic ：https://github.com/0xn0ne/weblogicScanner
+    - weblogic(最新)：https://github.com/KimJun1010/WeblogicTool
     - JNDIExploit ：https://github.com/WhiteHSBG/JNDIExploit
     - ysoserial ：https://github.com/su18/ysoserial
+    - jboss ：https://github.com/joaomatosf/jexboss
     - fastjson ：https://github.com/a1phaboy/FastjsonScan
 - 主机漏洞利用
     - ms17-010 ：https://github.com/weizn11/MS17010_AllInOne
@@ -115,6 +122,11 @@
     - 阿里云 ：https://github.com/iiiusky/alicloud-tools
 - 软件漏洞利用
     - 向日葵rce ：https://github.com/Mr-xn/sunlogin_rce
+- 硬件漏洞利用
+    - 摄像头漏扫 ：https://github.com/jorhelp/Ingram
+- 恶意压缩文件生成 ：https://github.com/jwilk/traversal-archives
+- 各类漏洞总结：https://github.com/Awrrays/FrameVul
+- 反序列化：https://github.com/woodpecker-framework/ysoserial-for-woodpecker
 
 * * *
 
@@ -128,12 +140,14 @@
 - 冰蝎免杀shell生成 ：https://github.com/Tas9er/ByPassBehinder
 - 哥斯拉免杀shell生成 : https://github.com/Tas9er/ByPassGodzilla
 - php异或免杀 ：https://github.com/splitline/PHPFuck
+- php多种加密面杀 ：https://github.com/Z0fhack/AvoidkillingPHP
 - Jsp白魔法 ：https://github.com/turn1tup/JspEncounter
 - 动态在线免杀 ：https://github.com/StarsApt/webshell_bypass
 - 内存马生成器 : https://github.com/hosch3n/msmap
 - 精简webshell管理(有免杀效果) : https://github.com/b1ackc4t/Assassin
 - disable_functions_bypass ：https://github.com/l3m0n/Bypass_Disable_functions_Shell
 - 几年前的一个webshell免杀项目 ：https://github.com/LandGrey/webshell-detect-bypass
+- php免杀webshell ：https://github.com/BugFor-Pings/PHPwebshell/tree/main
 
 * * *
 
@@ -149,6 +163,12 @@
 
 * * *
 
+### 防溯源
+
+- 腾讯云函数 ：https://mp.weixin.qq.com/s?__biz=MzkxMzIwNTY1OA==&mid=2247493632&idx=1&sn=3f01e8d26207c72431c11d3606af4cad
+
+* * *
+
 ## 后渗透
 
 * * *
@@ -157,16 +177,24 @@
 
 - Viper ：https://github.com/FunnyWolf/Viper
 - Cat_4.5 ：https://github.com/TryGOTry/CobaltStrike_Cat_4.5
+- 远控上线方案 ：https://github.com/RuoJi6/Deskbypass
 
 * * *
 
 ### 权限提升
 
-- CDK ：https://github.com/cdk-team/CDK
+- CDK(Docker逃逸) ：https://github.com/cdk-team/CDK
 - postsql提权 ：https://github.com/No-Github/postgresql_udf_help
 - 土豆家族 ：https://github.com/antonioCoco/JuicyPotatoNG
+- godpotato ：https://github.com/BeichenDream/GodPotato
 - linux提权 ：https://github.com/liamg/traitor
 - PEASS-ng ：https://github.com/carlospolop/PEASS-ng
+
+* * *
+
+### 权限维持
+
+- Linux权限维持 ：https://github.com/RuoJi6/HackerPermKeeper
 
 * * *
 
@@ -182,6 +210,7 @@
 
 - SharpHostInfo(类似netspy深信服写的) ：https://github.com/shmilylty/SharpHostInfo
 - wmiexec等协议横向 ：https://github.com/rootclay/WMIHACKER
+- wmiexec ：https://github.com/XiaoliChan/wmiexec-Pro
 
 * * *
 
@@ -215,7 +244,7 @@
 ## 代码审计
 
 - mysql数据库监控 ：https://github.com/fupinglee/MySQLMonitor
-- chatgpt自动审计 : https://github.com/Kento-Sec/chatGPT-CodeReview
+- chatgpt自动审计 : https://github.com/YulinSec/ChatGPTScan-SASTcd
 - Codepy ：https://github.com/webraybtl/CodeQLpy
 
 * * *
@@ -229,6 +258,7 @@
 - android渗透盒子 ：https://github.com/H4ckBu7eer-EX/h4tools
 - mac微信防撤回 ：https://github.com/sunnyyoung/WeChatTweak-macOS
 - electerm ：https://github.com/electerm/electerm
+- sql语句在线测试：https://www.db-fiddle.com/
 
 * * *
 
@@ -272,6 +302,7 @@
     - Java漏洞及代码学习 ：https://github.com/JoyChou93/java-sec-code
     - Jsp免杀 ：https://github.com/threedr3am/JSP-WebShells
     - fastjson ：https://mp.weixin.qq.com/s/F3zkjc_7iby4dsAQu2COdg
+    - Java学习笔记(较全) ：https://github.com/Drun1baby/JavaSecurityLearning
 - PHP
     - 代码审计练习 ：https://github.com/hongriSec/PHP-Audit-Labs
 - Sql注入
@@ -291,11 +322,14 @@
     - 精彩逆向文章！ : https://github.com/darbra/sperm
     - 免杀工具及文章收集项目 ：https://github.com/alphaSeclab/anti-av
     - readtool(红队资料工具) ：https://github.com/xiaoZ-hc/redtool
+    - vulnerability-paper ：https://github.com/MrWQ/vulnerability-paper
 - webshell免杀
     - php免杀文章 ：https://github.com/AabyssZG/WebShell-Bypass-Guide
+
 * * *
 
 ## 各年护网exp整理
 
 - 2021 ：https://github.com/Ershu1/2021_Hvv
 - 2022 ：https://github.com/Phuong39/2022-HW-POC
+- 2023 : https://github.com/wy876/POC/tree/main
