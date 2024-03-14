@@ -148,6 +148,7 @@
 - disable_functions_bypass ：https://github.com/l3m0n/Bypass_Disable_functions_Shell
 - 几年前的一个webshell免杀项目 ：https://github.com/LandGrey/webshell-detect-bypass
 - php免杀webshell ：https://github.com/BugFor-Pings/PHPwebshell/tree/main
+- 内存马生成 ：https://github.com/pen4uin/java-memshell-generator-release
 
 * * *
 
@@ -228,6 +229,7 @@
 
 ### 安卓逆向
 
+- 安卓脱壳 ：https://github.com/CodingGay/BlackDex
 - 安卓逆向 ：https://github.com/dqzg12300/MikRom
 - AppInfoScanner ：https://github.com/kelvinBen/AppInfoScanner
 - 微信小程序逆向 https://github.com/ezshine/wxapkg-convertor
@@ -297,6 +299,7 @@
     - 安卓app渗透 ：https://github.com/WindXaa/Android-Vulnerability-Mining
     - f8x渗透tips ：https://github.com/ffffffff0x/Pentest101
     - 红队笔记 ：https://github.com/biggerduck/RedTeamNotes
+    - HackTools文章 ：https://github.com/reddelexc/hackerone-reports
 - Java
     - spring boot相关漏洞学习资料，利用方法 ：https://github.com/LandGrey/SpringBootVulExploit
     - Java漏洞及代码学习 ：https://github.com/JoyChou93/java-sec-code
@@ -325,6 +328,16 @@
     - vulnerability-paper ：https://github.com/MrWQ/vulnerability-paper
 - webshell免杀
     - php免杀文章 ：https://github.com/AabyssZG/WebShell-Bypass-Guide
+- 安卓逆向
+    - 52pojie ：https://www.52pojie.cn/thread-1731181-1-1.html
+- 逆向文章
+    - 52pojie ：https://mp.weixin.qq.com/s/Nj-bDf1EEFQoECaQ964HSQ
+    - 52pojie ：https://mp.weixin.qq.com/s/UreWrtuReSM4YV0e7etIJg
+    - 52pojie ：https://mp.weixin.qq.com/s/CLbwbT2MCZKKqDPY-N32oQ
+- 漏洞分析
+    - 各类OA漏洞分析 ：https://github.com/ax1sX/SecurityList/tree/main/Java_OA
+- 漏洞环境
+    - Spring漏洞环境 ：https://github.com/ax1sX/SpringSecurity
 
 * * *
 
